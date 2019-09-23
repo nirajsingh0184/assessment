@@ -10,7 +10,8 @@ In JavaScript terminology,a template literal is a way to concatenate strings
   As for eg:
   const str3 = `hello world`;
  A template literal is still a String. But by using the back-ticks and writing 
- our strings as template literals we can do some really cool stuff!
+ our strings as template literal,we can easily perform the following functions in
+ a much easier way:
  i.e:
  1:String Concatenation
 As I stated initially, template literals can drastically improve your code readability. 
@@ -28,7 +29,7 @@ console.log(`Hi, I'm ${p.name}! Call me "${p.nn}".`);
 
 //Output:Hi, I'm Niraj! Call me Nil.
 
-Line Breaks
+2:Line Breaks
 Line breaks are another area where template literals can truly shine. 
 Consider a scenario where we wanted to log out the following code:
 // STRING CONCATENATION
