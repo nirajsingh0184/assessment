@@ -14,7 +14,7 @@ class User{
     }
 }
 java = new User("Java",30,"abc@gmail.com");
- jeff.increaseAge();
+ java.increaseAge();
  console.log(java.name);
  console.log(java.age);
  console.log(java.email);
